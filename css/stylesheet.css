@@ -1,0 +1,50 @@
+html {border: 12px solid #b9ac9c;
+	  padding: 15px;
+	  background-color:#23252b;
+	}
+
+body {
+	
+	font-family:'Minion Pro',Times,serif;
+}
+
+nav {
+	border: 1px solid #b9ac9c;
+	background-color: #fff;
+	margin: -15px -15px 0px -15px;
+	text-align: center;
+	padding: 10px 15px;
+}
+
+nav ul li {
+	padding: 10px;
+}
+
+.center {
+	text-align: center;
+	font-family: 
+}
+/*################--Footer styling--#############*/
+
+footer {
+	border: 1px solid #b9ac9c;
+	background-color: #fff;
+	margin: -15px;
+	margin-top: 25px;
+}
+
+footer p {
+	font-size: 18px;
+}
+
+ul li {
+	text-decoration: none;
+	display: inline-block;
+}
+.footer-icons {
+	text-align: center;
+}
+
+.image-icon {
+	margin-right:23px;
+}
