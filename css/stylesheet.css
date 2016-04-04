@@ -14,7 +14,8 @@ nav {
 	background-color: #fff;
 	margin: -15px -15px 0px -15px;
 	text-align: center;
-	padding: 10px 15px;
+	padding: 1px 15px;
+	font-size: 2em;
 }
 
 nav ul li {
@@ -25,6 +26,77 @@ nav ul li {
 	text-align: center;
 	font-family: 
 }
+.container {
+	padding: 25px;
+	
+	}
+
+							/* Css for resume goes below */
+
+	p a:visited{
+		color:black;
+
+	}
+	p a:link{
+		font-weight: bold;
+		font: 20px;
+		color: red;
+
+
+	}
+	
+
+	.resume {
+	background-color: antiquewhite;
+	
+
+}
+
+	.subtitle {
+		text-align: center;
+		padding-top: -190px;
+	}
+	#name{
+		text-align: center;
+		font-size: 35px;
+		font-family: serif;
+		padding-top: 15px;
+		line-height: 10px;
+	}
+
+	hr {
+		border-color: white;
+		border-width: 4px;
+	}
+	#address {
+		text-align: center;
+	}
+
+	
+
+	body {
+		padding: 30px;
+	}
+
+	.professional{
+			text-align: center;
+
+	}
+
+	.edtech{
+		text-align: center;
+	}
+
+	a:visited .linkedin{
+				color: black;
+	}
+	.companies{
+		text-indent: 40px;
+	}
+
+	span {
+		float: right;
+	}
 /*################--Footer styling--#############*/
 
 footer {
