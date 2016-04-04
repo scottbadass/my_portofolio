@@ -102,8 +102,9 @@ nav ul li {
 footer {
 	border: 1px solid #b9ac9c;
 	background-color: #fff;
-	margin: -15px;
+	margin: -45px;
 	margin-top: 25px;
+	height: 100px
 }
 
 footer p {
@@ -120,4 +121,8 @@ ul li {
 
 .image-icon {
 	margin-right:23px;
+	padding-top: -75px;
+}
+.footer-icon p {
+	color: black;
 }
