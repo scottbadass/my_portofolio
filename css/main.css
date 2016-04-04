@@ -23,7 +23,10 @@ nav ul li a {
 	text-decoration: none;
 	color: #fff;
 }
-
+ul li {
+	list-style-type: none;
+	display: inline-block;
+}
 .center {
 	text-align: center;
 	font-family: 
@@ -31,6 +34,7 @@ nav ul li a {
 .container {
 	margin-right: 45px;
   	margin-left: 45px;
+  	margin-bottom: 75px;
   	text-align: center;
   	line-height: 28px;
 	font-size: 18px;
@@ -63,56 +67,42 @@ nav ul li a {
 }
 							/* Css for resume goes below */
 
-	p a:visited{
+p a:visited{
 		color:black;
-
-	}
-	p a:link{
+}
+p a:link{
 		font-weight: bold;
 		font: 20px;
 		color: red;
-
-
 	}
-	
-
-	.resume {
+.resume {
 	background-color: antiquewhite;
-	
-
 }
-
-	.subtitle {
+.subtitle {
 		text-align: center;
 		padding-top: -190px;
 	}
-	#name{
+#name{
 		text-align: center;
 		font-size: 35px;
 		font-family: serif;
 		padding-top: 15px;
 		line-height: 10px;
 	}
-
-	hr {
-		border-color: white;
-		border-width: 4px;
+hr {
+	border-color: white;
+	border-width: 4px;
 	}
 	#address {
 		text-align: center;
 	}
-
-	
-
-	body {
-		padding: 30px;
+body {
+	padding: 30px;
 	}
 
 	.professional{
-			text-align: center;
-
+		text-align: center;
 	}
-
 	.edtech{
 		text-align: center;
 	}
@@ -137,26 +127,5 @@ nav ul li a {
 /*################--Footer styling--#############*/
 
 footer {
-	background-color: transparent;
-	margin-top: 25px;
-	height: 100px;
 	text-align: center;
-}
-
-footer p {
-	font-size: 18px;
-}
-
-ul li {
-	text-decoration: none;
-	display: inline-block;
-}
-
-
-.image-icon {
-	margin-right:23px;
-	padding-top: -75px;
-}
-.footer-icon p {
-	color: white;
 }
