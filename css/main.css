@@ -5,8 +5,10 @@ html {border: 12px solid #b9ac9c;
 
 body {
 	
-	font-family:'Minion Pro',Times,serif;
+	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
 	color: white;
+	height: 640px;
+	font-size: 1em;
 }
 
 nav {
@@ -14,8 +16,9 @@ nav {
 	background-color: #fff;
 	margin: -15px -15px 0px -15px;
 	text-align: center;
-	padding: 1px 15px;
+	padding: -20px 15px;
 	font-size: 2em;
+	width: 100%;
 }
 
 nav ul li {
@@ -27,10 +30,34 @@ nav ul li {
 	font-family: 
 }
 .container {
-	padding: 25px;
+	margin-right: auto;
+  	margin-left: auto;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	width: 100%;
 	
 	}
+.subhead-displayed {
 
+}
+.displayed {
+	font-size: 145px;
+	margin-top: -32px;
+	font-family: Conduit,Helvetica,sans-serif;
+	letter-spacing: 0.04em;
+	display: block;
+}
+.subtitle {
+	font-size: 1.10em;
+	font-weight: 600;
+	margin-top: -130px;
+	margin-bottom: 100px;
+	letter-spacing: .36em;
+	color: #b9ac9c;
+	text-align: center;
+	position: relative;
+	height: 1px;
+}
 							/* Css for resume goes below */
 
 	p a:visited{
@@ -97,6 +124,13 @@ nav ul li {
 	span {
 		float: right;
 	}
+
+	img {
+		display: inline-block;
+	}
+
+	/* Resume styling ends here */
+
 /*################--Footer styling--#############*/
 
 footer {
