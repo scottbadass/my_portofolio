@@ -1,6 +1,6 @@
 html {border: 12px solid #b9ac9c;
 	  padding: 15px;
-	  background-color:#23252b;
+	  background-color:#22242A;
 	}
 
 body {
@@ -12,17 +12,16 @@ body {
 }
 
 nav {
-	border: 1px solid #b9ac9c;
-	background-color: #fff;
-	margin: -15px -15px 0px -15px;
+	margin: -45px -15px 0px -15px;
 	text-align: center;
-	padding: -20px 15px;
 	font-size: 2em;
 	width: 100%;
 }
 
-nav ul li {
+nav ul li a {
 	padding: 10px;
+	text-decoration: none;
+	color: #fff;
 }
 
 .center {
@@ -30,15 +29,19 @@ nav ul li {
 	font-family: 
 }
 .container {
-	margin-right: auto;
-  	margin-left: auto;
-  	padding-left: 10px;
-  	padding-right: 10px;
-  	width: 100%;
-	
+	margin-right: 45px;
+  	margin-left: 45px;
+  	text-align: center;
+  	line-height: 28px;
+	font-size: 18px;
 	}
 .subhead-displayed {
-
+	font-family: Conduit,Helvetica,sans-serif;
+	font-size: 1.10em;
+	font-weight: 600;
+	color: #b9ac9c;
+	letter-spacing: 0.04em;
+	margin-bottom: 25px;
 }
 .displayed {
 	font-size: 145px;
@@ -51,7 +54,7 @@ nav ul li {
 	font-size: 1.10em;
 	font-weight: 600;
 	margin-top: -130px;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 	letter-spacing: .36em;
 	color: #b9ac9c;
 	text-align: center;
@@ -134,11 +137,10 @@ nav ul li {
 /*################--Footer styling--#############*/
 
 footer {
-	border: 1px solid #b9ac9c;
-	background-color: #fff;
-	margin: -45px;
+	background-color: transparent;
 	margin-top: 25px;
-	height: 100px
+	height: 100px;
+	text-align: center;
 }
 
 footer p {
@@ -149,14 +151,12 @@ ul li {
 	text-decoration: none;
 	display: inline-block;
 }
-.footer-icons {
-	text-align: center;
-}
+
 
 .image-icon {
 	margin-right:23px;
 	padding-top: -75px;
 }
 .footer-icon p {
-	color: black;
+	color: white;
 }
