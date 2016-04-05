@@ -7,8 +7,10 @@ body {
 	
 	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
 	color: white;
-	height: 640px;
+	height: 100%;
 	font-size: 1em;
+	padding: 30px;
+	padding-bottom: 15px;
 }
 
 nav {
@@ -23,22 +25,34 @@ nav ul li a {
 	text-decoration: none;
 	color: #fff;
 }
+
 ul li {
 	list-style-type: none;
 	display: inline-block;
 }
+
+ul {
+	padding-left: 0px;
+}
+
 .center {
 	text-align: center;
 	font-family: 
 }
+
 .container {
-	margin-right: 45px;
-  	margin-left: 45px;
+	margin-right: auto;
+  	margin-left: auto;
   	margin-bottom: 75px;
-  	text-align: center;
   	line-height: 28px;
 	font-size: 18px;
-	}
+	width: 80%;
+}
+
+.container li {
+	margin: 0px 10px;
+}
+
 .subhead-displayed {
 	font-family: Conduit,Helvetica,sans-serif;
 	font-size: 1.10em;
@@ -47,6 +61,7 @@ ul li {
 	letter-spacing: 0.04em;
 	margin-bottom: 25px;
 }
+
 .displayed {
 	font-size: 145px;
 	margin-top: -32px;
@@ -54,6 +69,7 @@ ul li {
 	letter-spacing: 0.04em;
 	display: block;
 }
+
 .subtitle {
 	font-size: 1.10em;
 	font-weight: 600;
@@ -75,13 +91,16 @@ p a:link{
 		font: 20px;
 		color: red;
 	}
+
 .resume {
 	background-color: antiquewhite;
 }
+
 .subtitle {
 		text-align: center;
 		padding-top: -190px;
 	}
+
 #name{
 		text-align: center;
 		font-size: 35px;
@@ -89,38 +108,38 @@ p a:link{
 		padding-top: 15px;
 		line-height: 10px;
 	}
+	
 hr {
 	border-color: white;
 	border-width: 4px;
 	}
-	#address {
-		text-align: center;
-	}
-body {
-	padding: 30px;
+
+#address {
+	text-align: center;
 	}
 
-	.professional{
-		text-align: center;
-	}
-	.edtech{
-		text-align: center;
-	}
+.professional {
+	text-align: center;
+}
 
-	a:visited .linkedin{
-				color: black;
-	}
-	.companies{
-		text-indent: 40px;
-	}
+.edtech{
+	text-align: center;
+}
 
-	span {
-		float: right;
-	}
+a:visited .linkedin{
+			color: black;
+}
+.companies{
+	text-indent: 40px;
+}
 
-	img {
-		display: inline-block;
-	}
+span {
+	float: right;
+}
+
+img {
+	display: inline-block;
+}
 
 	/* Resume styling ends here */
 
