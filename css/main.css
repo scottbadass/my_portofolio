@@ -33,6 +33,7 @@ ul li {
 
 ul {
 	padding-left: 0px;
+	text-align: center;
 }
 
 .center {
@@ -139,6 +140,7 @@ span {
 
 img {
 	display: inline-block;
+	margin: auto;
 }
 
 	/* Resume styling ends here */
