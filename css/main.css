@@ -1,152 +1,152 @@
 html {border: 12px solid #b9ac9c;
-	  padding: 15px;
-	  background-color:#22242A;
-	}
+      padding: 15px;
+      background-color:#22242A;
+    }
 
 body {
-	
-	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
-	color: white;
-	height: 100%;
-	font-size: 1em;
-	padding: 30px;
-	padding-bottom: 15px;
+
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+    height: 100%;
+    font-size: 1em;
+    padding: 30px;
+    padding-bottom: 15px;
 }
 
 nav {
-	margin: -45px -15px 0px -15px;
-	text-align: center;
-	font-size: 2em;
-	width: 100%;
+    margin: -45px -15px 0px -15px;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
 }
 
 nav ul li a {
-	padding: 10px;
-	text-decoration: none;
-	color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
 }
 
 ul li {
-	list-style-type: none;
-	display: inline-block;
+    list-style-type: none;
+    display: inline-block;
 }
 
 ul {
-	padding-left: 0px;
-	text-align: center;
+    padding-left: 0px;
+    text-align: center;
 }
 
 .center {
-	text-align: center;
-	font-family: 
+    text-align: center;
+    font-family:
 }
 
 .container {
-	margin-right: auto;
-  	margin-left: auto;
-  	margin-bottom: 75px;
-  	line-height: 28px;
-	font-size: 18px;
-	width: 80%;
+    margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 75px;
+      line-height: 28px;
+    font-size: 18px;
+    width: 80%;
 }
 
 .container li {
-	margin: 0px 10px;
+    margin: 0px 10px;
 }
 
 .subhead-displayed {
-	font-family: Conduit,Helvetica,sans-serif;
-	font-size: 1.10em;
-	font-weight: 600;
-	color: #b9ac9c;
-	letter-spacing: 0.04em;
-	margin-bottom: 25px;
+    font-family: Conduit,Helvetica,sans-serif;
+    font-size: 1.10em;
+    font-weight: 600;
+    color: #b9ac9c;
+    letter-spacing: 0.04em;
+    margin-bottom: 25px;
 }
 
 .displayed {
-	font-size: 145px;
-	margin-top: -32px;
-	font-family: Conduit,Helvetica,sans-serif;
-	letter-spacing: 0.04em;
-	display: block;
+    font-size: 145px;
+    margin-top: -32px;
+    font-family: Conduit,Helvetica,sans-serif;
+    letter-spacing: 0.04em;
+    display: block;
 }
 
 .subtitle {
-	font-size: 1.10em;
-	font-weight: 600;
-	margin-top: -130px;
-	margin-bottom: 80px;
-	letter-spacing: .36em;
-	color: #b9ac9c;
-	text-align: center;
-	position: relative;
-	height: 1px;
+    font-size: 1.10em;
+    font-weight: 600;
+    margin-top: -130px;
+    margin-bottom: 80px;
+    letter-spacing: .36em;
+    color: #b9ac9c;
+    text-align: center;
+    position: relative;
+    height: 1px;
 }
-							/* Css for resume goes below */
+                            /* Css for resume goes below */
 
 p a:visited{
-		color:black;
+        color:black;
 }
 p a:link{
-		font-weight: bold;
-		font: 20px;
-		color: red;
-	}
+        font-weight: bold;
+        font: 20px;
+        color: red;
+    }
 
 .resume {
-	background-color: antiquewhite;
+    background-color: antiquewhite;
 }
 
 .subtitle {
-		text-align: center;
-		padding-top: -190px;
-	}
+        text-align: center;
+        padding-top: -190px;
+    }
 
 #name{
-		text-align: center;
-		font-size: 35px;
-		font-family: serif;
-		padding-top: 15px;
-		line-height: 10px;
-	}
-	
+        text-align: center;
+        font-size: 35px;
+        font-family: serif;
+        padding-top: 15px;
+        line-height: 10px;
+    }
+
 hr {
-	border-color: white;
-	border-width: 4px;
-	}
+    border-color: white;
+    border-width: 4px;
+    }
 
 #address {
-	text-align: center;
-	}
+    text-align: center;
+    }
 
 .professional {
-	text-align: center;
+    text-align: center;
 }
 
 .edtech{
-	text-align: center;
+    text-align: center;
 }
 
 a:visited .linkedin{
-			color: black;
+            color: black;
 }
 .companies{
-	text-indent: 40px;
+    text-indent: 40px;
 }
 
 span {
-	float: right;
+    float: right;
 }
 
 img {
-	display: inline-block;
-	margin: auto;
+    display: inline-block;
+    margin: auto;
 }
 
-	/* Resume styling ends here */
+    /* Resume styling ends here */
 
 /*################--Footer styling--#############*/
 
 footer {
-	text-align: center;
+    text-align: center;
 }

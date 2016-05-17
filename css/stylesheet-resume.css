@@ -1,297 +1,258 @@
-body{
-	background-color: 	#f6f6f6	;
-	border: 5px solid white;
+body {
+    background-color: #f6f6f6;
+    border: 5px solid white;
 }
 
-#header {
-	text-align: center;
-	font-size: 65px;
-	font-family: Georgia;
-	color: #404040;
-}
-#navBar{
-	position: fixed;
-	top: 30px;
+nav {
+    margin: -45px -15px 0px -15px;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    background-color: #22242A;
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
 
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
 
 ul {
-    list-style-type: none;
-    margin: -30px;
-    padding: 0;
-    overflow: hidden;
-    background-color:black;
-    height: 55px;
-    width: 1330px;
-}
-
-li {
-    float: left;
-}
-
-
-li a {
-    display: block;
-    color: white;
+    padding-left: 0px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
 }
 
-li a:hover:not(.active) {
+
+/*li a:hover:not(.active) {
     background-color: maroon;
-}
+}*/
 
 .active {
     background-color: blue;
 }
 
-			
-			/* Profile photo styling */
-			
-#profile{
-	width: 300px;
-	height: 300px;
-	float: center;
-	border: 10px solid black;
-	border-radius: 4px;
 
+/* Profile photo styling */
+
+#profile {
+    width: 300px;
+    height: 300px;
+    float: center;
+    border: 10px solid black;
+    border-radius: 4px;
 }
 
-			/* Profile photo styling ends here! */
 
-		/* Biography styling goes here ! */
+/* Profile photo styling ends here! */
+
+
+/* Biography styling goes here ! */
 
 #bio {
-	font-size: 25px;
-	text-indent: 50px;
-	line-height: 30px;
-	text-align: center;
-	padding-top: 15px;
-	padding-left: 50px;
-	padding-right: 50px;
+    font-size: 25px;
+    text-indent: 50px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-		/* Biography styling ends here */
+
+/* Biography styling ends here */
 
 
+/* People I admire styling goes below */
 
-		/* People I admire styling goes below */
+fieldset {}
 
-fieldset{
-
+#elonmusk {
+    float: left;
 }
 
-#elonmusk{
-	float: left;
-	
-	
-}
-
-#stevejobs{
-	float: right;
-	
-	
-
+#stevejobs {
+    float: right;
 }
 
 #mark {
-
-	float: left;
+    float: left;
 }
 
-#jeffbezos{
-	float: right;
-}
-
-				/* People I admire styling end here! */
-
-
-
-#heroes{
-	text-align: center;
+#jeffbezos {
+    float: right;
 }
 
 
+/* People I admire styling end here! */
 
-
-							/* Css for resume goes below */
-
-
-	p a:visited{
-		color:black;
-
-	}
-	p a:link{
-		font-weight: bold;
-		font: 20px;
-		color: red;
-
-
-	}
-	
-
-	.resume {
-	background-color: antiquewhite;
-	
-
+#heroes {
+    text-align: center;
 }
 
-	.subtitle {
-		text-align: center;
-		padding-top: -190px;
-	}
-	#name{
-		text-align: center;
-		font-size: 35px;
-		font-family: serif;
-		padding-top: 15px;
-		line-height: 10px;
-	}
 
-	hr {
-		border-color: white;
-		border-width: 4px;
-	}
-	#address {
-		text-align: center;
-	}
+/* Css for resume goes below */
 
-	
+p a:visited {
+    color: black;
+}
 
-	body {
-		padding: 30px;
-	}
+p a:link {
+    font-weight: bold;
+    font: 20px;
+    color: red;
+}
 
-	.professional{
-			text-align: center;
+.resume {
+    background-color: antiquewhite;
+}
 
-	}
+.subtitle {
+    text-align: center;
+    padding-top: -190px;
+}
 
-	.edtech{
-		text-align: center;
-	}
+#name {
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+    padding-top: 15px;
+    line-height: 10px;
+}
 
-	a:visited .linkedin{
-				color: black;
-	}
-	.companies{
-		text-indent: 40px;
-	}
+hr {
+    border-color: white;
+    border-width: 4px;
+}
 
-	span {
-		float: right;
-	}
+#address {
+    text-align: center;
+}
 
+body {
+    padding: 30px;
+}
 
+.professional {
+    text-align: center;
+}
 
+.edtech {
+    text-align: center;
+}
 
+a:visited .linkedin {
+    color: black;
+}
 
-		/*STYLING FOR CONTACT FORM */
+.companies {
+    text-indent: 40px;
+}
 
-		#headercontact {
-			
-			background-color: red;
-			border-radius: 4px;
-			margin: auto;
-			color: white;
-			font-size: 35px;
-			font-family: Georgia;
-
-
-		}
-
-		html{
-			background-color: white;
-		}
-
-		#form-wrap{
-			margin-top: 25px ;
-
-		}
-
-		form{
-
-			width: 500px;
-			margin: 0 auto;		
-		}
-
-		label{
-			display: block;
-			font: 32px arial;
-			color: black;
-			padding: 8px;
-			margin: 10px;
-
-		}
-
-		.input1{
-			height: 35px;
-			width: 450px;
-			margin: 0 0 0 20px;
-			font-size: 18px;
-		}
-		textarea{
-			height: 180px;
-			width: 450px;
-			margin: 0 0 0 20px;
-			font-size: 18px;
-		}
-
-		.fieldset{
-			border: none;
-			background-color: white;
-			padding:0 0 20px 0;
-		}
+span {
+    float: right;
+}
 
 
-		.btn{
-			
-	padding:10px 5px; 
-    background:red; 
-    border:none;
-    cursor:pointer;
+/*STYLING FOR CONTACT FORM */
+
+#headercontact {
+    background-color: red;
+    border-radius: 4px;
+    margin: auto;
+    color: white;
+    font-size: 35px;
+    font-family: Georgia;
+}
+
+html {
+    background-color: white;
+}
+
+#form-wrap {
+    margin-top: 25px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font: 32px arial;
+    color: black;
+    padding: 8px;
+    margin: 10px;
+}
+
+.input1 {
+    height: 35px;
+    width: 450px;
+    margin: 0 0 0 20px;
+    font-size: 18px;
+}
+
+textarea {
+    height: 180px;
+    width: 450px;
+    margin: 0 0 0 20px;
+    font-size: 18px;
+}
+
+.fieldset {
+    border: none;
+    background-color: white;
+    padding: 0 0 20px 0;
+}
+
+.btn {
+    padding: 10px 5px;
+    background: red;
+    border: none;
+    cursor: pointer;
     -webkit-border-radius: 5px;
-    border-radius: 5px; 
+    border-radius: 5px;
     width: 100px;
     float: right;
     font-size: 25px;
     color: white;
+}
 
-		}
-
-		.resetbtn{
-			padding:10px 5px; 
-    background:red; 
-    border:none;
-    cursor:pointer;
+.resetbtn {
+    padding: 10px 5px;
+    background: red;
+    border: none;
+    cursor: pointer;
     -webkit-border-radius: 5px;
-    border-radius: 5px; 
+    border-radius: 5px;
     width: 100px;
     float: right;
     font-size: 25px;
     color: white;
     float: left;
-		}
+}
 
-		form h4{
-			margin: 20px 0 0 30px;
-			font-size: 25px sans-serif;
-			font-weight: bold;
-			text-align: center;
-		}
-
-
-							/*footer section*/
-
-footer{
-	text-align: center;
+form h4 {
+    margin: 20px 0 0 30px;
+    font-size: 25px sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 
+/*footer section*/
 
+footer {
+    text-align: center;
+}
 
 
 /* End of footer section */
