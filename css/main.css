@@ -1,11 +1,11 @@
-html {border: 12px solid #b9ac9c;
-      padding: 15px;
-      background-color:#22242A;
-    }
+html {
+    border: 12px solid #b9ac9c;
+    padding: 15px;
+    background-color: #22242A;
+}
 
 body {
-
-    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: white;
     height: 100%;
     font-size: 1em;
@@ -43,9 +43,9 @@ ul {
 
 .container {
     margin-right: auto;
-      margin-left: auto;
-      margin-bottom: 75px;
-      line-height: 28px;
+    margin-left: auto;
+    margin-bottom: 75px;
+    line-height: 28px;
     font-size: 18px;
     width: 80%;
 }
@@ -55,7 +55,7 @@ ul {
 }
 
 .subhead-displayed {
-    font-family: Conduit,Helvetica,sans-serif;
+    font-family: Conduit, Helvetica, sans-serif;
     font-size: 1.10em;
     font-weight: 600;
     color: #b9ac9c;
@@ -66,7 +66,7 @@ ul {
 .displayed {
     font-size: 145px;
     margin-top: -32px;
-    font-family: Conduit,Helvetica,sans-serif;
+    font-family: Conduit, Helvetica, sans-serif;
     letter-spacing: 0.04em;
     display: block;
 }
@@ -82,55 +82,59 @@ ul {
     position: relative;
     height: 1px;
 }
-                            /* Css for resume goes below */
 
-p a:visited{
-        color:black;
+
+/* Css for resume goes below */
+
+p a:visited {
+    color: black;
 }
-p a:link{
-        font-weight: bold;
-        font: 20px;
-        color: red;
-    }
+
+p a:link {
+    font-weight: bold;
+    font: 20px;
+    color: red;
+}
 
 .resume {
     background-color: antiquewhite;
 }
 
 .subtitle {
-        text-align: center;
-        padding-top: -190px;
-    }
+    text-align: center;
+    padding-top: -190px;
+}
 
-#name{
-        text-align: center;
-        font-size: 35px;
-        font-family: serif;
-        padding-top: 15px;
-        line-height: 10px;
-    }
+#name {
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+    padding-top: 15px;
+    line-height: 10px;
+}
 
 hr {
     border-color: white;
     border-width: 4px;
-    }
+}
 
 #address {
     text-align: center;
-    }
+}
 
 .professional {
     text-align: center;
 }
 
-.edtech{
+.edtech {
     text-align: center;
 }
 
-a:visited .linkedin{
-            color: black;
+a:visited .linkedin {
+    color: black;
 }
-.companies{
+
+.companies {
     text-indent: 40px;
 }
 
@@ -143,7 +147,99 @@ img {
     margin: auto;
 }
 
-    /* Resume styling ends here */
+
+/* Resume styling ends here */
+
+
+/*STYLING FOR CONTACT FORM */
+
+#headercontact {
+    background-color: red;
+    border-radius: 4px;
+    margin: auto;
+    color: white;
+    font-size: 35px;
+    font-family: Georgia;
+}
+
+html {
+    background-color: #22242A;
+}
+
+#form-wrap {
+    margin-top: 25px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font: 32px arial;
+    color: black;
+    padding: 8px;
+    margin: 10px;
+}
+
+.input1 {
+    height: 35px;
+    width: 450px;
+    margin: 0 0 0 20px;
+    font-size: 18px;
+}
+
+textarea {
+    height: 180px;
+    width: 450px;
+    margin: 0 0 0 20px;
+    font-size: 18px;
+}
+
+.fieldset {
+    border: none;
+    background-color: white;
+    padding: 0 0 20px 0;
+}
+
+.btn {
+    padding: 10px 5px;
+    background: red;
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 100px;
+    float: right;
+    font-size: 25px;
+    color: white;
+}
+
+.resetbtn {
+    padding: 10px 5px;
+    background: red;
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 100px;
+    float: right;
+    font-size: 25px;
+    color: white;
+    float: left;
+}
+
+form h4 {
+    margin: 20px 0 0 30px;
+    font-size: 25px sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* End of contact form styling */
+
 
 /*################--Footer styling--#############*/
 
