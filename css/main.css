@@ -86,6 +86,8 @@ ul {
 
 /* Css for resume goes below */
 
+
+/*
 p a:visited {
     color: black;
 }
@@ -130,6 +132,8 @@ hr {
 
 .edtech {
     text-align: center;
+    font-weight: bold;
+    color: white;
 }
 
 a:visited .linkedin {
@@ -147,7 +151,7 @@ span {
 img {
     display: inline-block;
     margin: auto;
-}
+}*/
 
 
 /* Resume styling ends here */
